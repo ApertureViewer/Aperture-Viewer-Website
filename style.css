@@ -17,7 +17,7 @@ body {
 
 .ascii-art {
     color: #FFFFFF; /* White ASCII Art */
-    font-size: 3px;      /* Tweak this value to scale the art */
+    font-size: 2px;      /* Tweak this value to scale the art */
     line-height: 1.0;     /* Tweak this value for solidness */
     white-space: pre;     /* DO NOT CHANGE - This preserves the art */
     text-align: center;
@@ -67,4 +67,5 @@ body {
 .color-yellow {
     color: #FFC800;
 }
+
 
