@@ -8,7 +8,7 @@ body {
     color: #FFFFFF; /* White Text */
     font-family: 'Courier New', Courier, monospace; /* Set monospace globally */
     margin: 0;
-    padding: 40px 20px;
+    padding: 0px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
