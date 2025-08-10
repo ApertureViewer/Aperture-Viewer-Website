@@ -1,0 +1,76 @@
+/* 
+    Aperture Viewer - ASCII Portal
+    Version 3.0
+*/
+
+body {
+    background-color: #000000; /* Pure Black Background */
+    color: #FFFFFF; /* White Text */
+    font-family: 'Courier New', Courier, monospace; /* Set monospace globally */
+    margin: 0;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.ascii-art {
+    color: #FFFFFF; /* White ASCII Art */
+    font-size: 8px;      /* Tweak this value to scale the art */
+    line-height: 1.0;     /* Tweak this value for solidness */
+    white-space: pre;     /* DO NOT CHANGE - This preserves the art */
+    text-align: center;
+}
+
+/* Base link styling */
+.ascii-art a {
+    text-decoration: none;
+    transition: color 0.9s ease;
+}
+
+.ascii-art a:hover {
+    color: #65BFBF; /* Light Blue Accent on hover */
+}
+
+/* HOVER EFFECT: When hovering over ANY link, make the SPAN inside it yellow */
+.ascii-art a:hover span {
+    color: #65BFBF; /* Yellow */
+}
+
+/* Color classes for spans */
+
+.color-white {
+    color: #FFFFFF;
+}
+
+.color-red {
+    color: #FF0000;
+}
+
+.color-blue {
+    color: #65BFBF;
+}
+    
+.color-yellow {
+    color: #FFC800;
+}
+
+.color-discord {
+    color: #EE05F2;
+}
+
+.color-youtube {
+    color: #A105F2;
+}
+
+.color-wiki {
+    color: #F2056B;
+}
+
+.color-sourcecode {
+    color: #05B0F2;
+}
+.color-contact {
+    color: #F25705;
+}

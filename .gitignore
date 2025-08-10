@@ -1,0 +1,20 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+Thumbs.db
+
+# Windows system files
+ehthumbs.db
+ehthumbs_vista.db
+
+# IDE and editor directories
+.idea/
+.vscode/
+
+# Local test files
+*.local
+*.test
