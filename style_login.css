@@ -3,13 +3,17 @@
     Version 3.0
 */
 
+/* --- Base Telemetry --- */
 body {
-    background-color: #000000; /* Pure Black Background */
-    color: #FFFFFF; /* White Text */
-    font-family: 'Courier New', Courier, monospace; /* Set monospace globally */
+    background-color: #0A0A0C; /* Near-black, less harsh than pure #000 */
+    color: #CCCCCC;           /* Light grey, easier on the eyes than pure #FFF */
+    font-family: 'IBM Plex Mono', 'Roboto Mono', monospace;
+    text-align: center;
     margin: 0;
-    padding: 0px 0px;
+    padding: 20px;
+    box-sizing: border-box; /* Ensures padding doesn't affect total width/height */
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -73,5 +77,29 @@ body {
 }
 .color-contact {
     color: #F25705;
+}
+
+.color-apollo8a {
+    color: #0433BF;
+}
+
+.color-apollo8b {
+    color: #032CA6;
+}
+
+.color-apollo8c {
+    color: #049DBF;
+}
+
+.color-apollo8d {
+    color: #02731E;
+}
+
+.color-apollo8f {
+    color: #fcf399;
+}
+
+.color-starwarsy {
+    color: #F29E38;
 }
 
